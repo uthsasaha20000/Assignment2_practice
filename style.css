@@ -83,6 +83,53 @@ border-radius: 16px;
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
 }
+.newsletter-container{
+ display: flex;
+ width:80%;
+ margin-left:135px;
+ justify-content: space-between;
+ margin-bottom:100px;
+ 
+}
+.input{
+   border:2px solid orangered;
+   border-radius:16px ;
+   height:344px;
+   padding:30px;
+}
+.input1{
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+}
+.input2{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.suscribe{
+    background-color: orangered;
+    color:#FFF;
+    padding:10px;
+    text-align:center;
+    border-radius: 16px;
+    
+}
+.scene{
+    background-image:url('Images/Rectangle\ 4.png');
+    height:400px;
+    width:400px;
+    background-repeat: no-repeat;
+    gap:50px;
+    border-radius: 16px;
+    
+   
+}
+
 @media screen and (max-width:600px){
     .heading{
         
@@ -124,6 +171,23 @@ flex-shrink: 0;
 height: 289px;
 flex-shrink: 0;
     }
+ .newsletter-container{
+    flex-direction: column;
+    gap:24px;
+    width:78%;
+    margin-left:10px;;
+    justify-content: center;
+   
+    
+ }
+ .input,.scene{
+    margin-right: 100px;
+    width:470px;
+    overflow: hidden;
+ }
+ .scene{
+ width:570px;
+ }
 
 
 

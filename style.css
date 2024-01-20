@@ -47,7 +47,7 @@
 }
 .why-choose-tittle{
     margin-bottom:100px;
-    
+
 
 }
 .center{
@@ -104,6 +104,27 @@ background: rgba(233, 68, 68, 0.05);
     .text{
         margin-bottom:30px;;
     }
+    .center{
+        flex-direction:column;
+        
+    }
+    .image1{
+        width: 335px;
+height: 289px;
+flex-shrink: 0;
+
+    }
+    .image2{
+width: 335px;
+height: 289px;
+flex-shrink: 0;
+    }
+    .end{
+        width: 335px;
+height: 289px;
+flex-shrink: 0;
+    }
+
 
 
 }

@@ -120,16 +120,27 @@ background: rgba(19, 19, 24, 0.05);
     
 }
 .scene{
+    display: flex;
     background-image:url('Images/Rectangle\ 4.png');
     height:400px;
     width:400px;
     background-repeat: no-repeat;
     gap:50px;
     border-radius: 16px;
+    justify-content:flex-end;
+    align-items: flex-end;
     
-   
 }
-
+.travel{
+    width:224px;
+    height:60px;
+    background-color: orangered;
+    color:white;
+    transform: rotate(-19.628deg);
+    margin-bottom:30px;
+    padding:10px;
+    
+}
 
 footer{
     display: flex;

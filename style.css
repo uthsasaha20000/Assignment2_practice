@@ -24,8 +24,18 @@
     height: 43px;;
 }
 
+.nav > li:hover{
+    color:orangered;
+    cursor: pointer;
+    font-size: 20px;
+}
+
 .nav li {
     list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+     background-color: whitesmoke;
+    /* border: 1px solid gray; */
 }
 .ourpopular{
     display:flex;
@@ -34,7 +44,8 @@
 }
 .mountan-image{
   background-image:url('Images/Rectangle\ 4.png');
-  width: 540px;
+  width: 50%;
+  background-repeat: no-repeat;
   height:550px;
 }
 .why-choose-container{
@@ -206,6 +217,7 @@ align-items: center;
         margin-left:0px;
     }
     .text{
+        width:50%;
         margin-bottom:30px;;
     }
     .center{
